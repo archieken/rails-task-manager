@@ -1,0 +1,3 @@
+<% @tasks.each do |task| %>
+ <p><%= link_to task.title, show_path(task.id)%></p>
+<% end %>
